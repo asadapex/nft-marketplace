@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "../globals.css";
-import Header from "@/modules/Header";
-import Footer from "@/modules/Footer";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
+import Layout from "@/provider";
 
 const workSans = Work_Sans({
   variable: "--font-work-sans",
@@ -41,10 +40,8 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider>
           <main className="flex-grow">
-            <Header />
-            {children}
+            <Layout>{children}</Layout>
           </main>
-          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

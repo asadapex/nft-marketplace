@@ -1,4 +1,4 @@
-import { ButtonType } from "@/types/ButtonType";
+import { ButtonType } from "@/@types/ButtonType";
 import { FC } from "react";
 
 const Button: FC<ButtonType> = ({

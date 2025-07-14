@@ -4,5 +4,13 @@
     "Navitem2": "Rankings",
     "Navitem3": "Connect a wallet",
     "Button": "Sign up"
+  },
+  "HeroItems": {
+    "Header": "Discover Digital Art & Collect NFTs",
+    "Desc": "NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.",
+    "Button": "Get Started",
+    "TSale": "Total Sale",
+    "Auction": "Auctions",
+    "Artists": "Artists"
   }
 }

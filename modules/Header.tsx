@@ -23,7 +23,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between items-center px-[50px] py-[27px]">
+    <header className="flex fixed w-full z-50 bg-[#2b2b2b] justify-between items-center px-[50px] py-[27px]">
       <div>
         <Link href="/">
           <Logo />

@@ -4,5 +4,13 @@
     "Navitem2": "Reytinglar",
     "Navitem3": "Hamyonni ulash",
     "Button": "Ro'yxatdan o'tish"
+  },
+  "HeroItems": {
+    "Header": "Raqamli san'atni kashf eting va NFTlarni to'plang",
+    "Desc": "Figma uchun Anima bilan yaratilgan NFT bozor interfeysi. 20 mingdan ortiq NFT rassomlarining san'atini to'plang, sotib oling va soting.",
+    "Button": "Boshlash",
+    "TSale": "Jami savdo",
+    "Auction": "Auksionlar",
+    "Artists": "Rassomlar"
   }
 }
