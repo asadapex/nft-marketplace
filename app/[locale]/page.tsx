@@ -2,6 +2,7 @@ import Collections from "@/modules/Collection";
 import Creators from "@/modules/Creators";
 
 import Hero from "@/modules/Hero";
+import Learn from "@/modules/Learn";
 import { getRequest } from "@/service/getRequest";
 import React from "react";
 
@@ -13,6 +14,7 @@ export default async function Home() {
       <Hero />
       <Collections collection={collections} />
       <Creators artists={artists} />
+      <Learn />
     </>
   );
 }
