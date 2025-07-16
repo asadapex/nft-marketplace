@@ -1,7 +1,7 @@
 "use client";
 import Button from "@/components/Button";
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { Logo, UserIcon, UsIcon } from "@/public/icons";
+import { Logo, MenuIcon, UserIcon, UsIcon } from "@/public/icons";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import { useTransition } from "react";
@@ -30,7 +30,11 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="flex items-center font-semibold text-white text-[16px] py-[12px] gap-[40px]">
+      <div className="lg:hidden">
+        <MenuIcon />
+      </div>
+
+      <div className="max-lg:hidden flex items-center font-semibold text-white text-[16px] py-[12px] gap-[40px]">
         <Link href="/marketplace">{t("NavItem1")}</Link>
         <Link href="/rankings">{t("Navitem2")}</Link>
         <Link href="/connect-wall">{t("Navitem3")}</Link>

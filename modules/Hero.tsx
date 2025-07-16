@@ -6,8 +6,8 @@ import Image from "next/image";
 const Hero = () => {
   const t = useTranslations("HeroItems");
   return (
-    <div className="px-[115px] py-[80px] flex items-center gap-[30px] mt-[90px]">
-      <div>
+    <div className="max-xl:w-[90%] max-xl:flex-col max-xl:items-center max-xl:gap-5 px-[115px] py-[80px] flex items-center justify-between mt-[90px]">
+      <div className="max-xl:flex max-xl:items-center max-xl:flex-col max-xl:text-center">
         <div className="flex flex-col gap-[20px]">
           <h1 className="w-[510px] text-[64px] font-semibold leading-[70px]">
             {t("Header")}
@@ -26,17 +26,17 @@ const Hero = () => {
         <div className="mt-[30px] flex items-center gap-[30px]">
           <div>
             <h3 className="text-[28px] font-bold">240k+</h3>
-            <span className="font-[23px] font-normal">{t("TSale")}</span>
+            <span className="font-[23px]">{t("TSale")}</span>
           </div>
 
           <div>
             <h3 className="text-[28px] font-bold">100k+</h3>
-            <span className="font-[23px] font-normal">{t("Auction")}</span>
+            <span className="font-[23px] f">{t("Auction")}</span>
           </div>
 
           <div>
             <h3 className="text-[28px] font-bold">240k+</h3>
-            <span className="font-[23px] font-normal">{t("Artists")}</span>
+            <span className="font-[23px] f">{t("Artists")}</span>
           </div>
         </div>
       </div>
